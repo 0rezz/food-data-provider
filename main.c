@@ -11,7 +11,7 @@ void readSpecific(char * specific);
 
 int main() {
     int noOfFoodTypes = 0;
-    printf("Hello, please enter the number of food types !\n");
+    printf("Hello, please enter the number of food types!\n");
     scanf("%d", &noOfFoodTypes);
     printf("Please enter the food types\n");
     char **foodTypes;
